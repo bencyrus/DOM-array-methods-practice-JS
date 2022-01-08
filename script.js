@@ -35,7 +35,7 @@ function doubleMoney() {
   updateDOM();
 }
 
-// Sort users by richest
+// Sort users by the richest
 function sortByRichest() {
   data.sort((a, b) => b.money - a.money);
 
